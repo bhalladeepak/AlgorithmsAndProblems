@@ -46,9 +46,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Algorithms\Dictionary\Dictionary.csproj", "{CF245334-BF62-485B-A101-DA54858B1877}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCF52DEA-4FAD-489C-9030-2A190E88EFD0}"
-	ProjectSection(SolutionItems) = preProject
-		ReadMe.md = ReadMe.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.LinkList", "06.LinkList", "{439A56D7-0001-4275-9E18-AB15B8FB153B}"
 EndProject
