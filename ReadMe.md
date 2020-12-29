@@ -1,4 +1,4 @@
-#ConsoleApplicationCollectin
+# AlgorithmsAndProblems
 
 #01.DataStructure
 	1. Tree: BinarySearchTree
@@ -24,31 +24,31 @@
 			https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 		2.3 SpiralOrderMatrix : Given a 2D array, print it in spiral form. 
 			https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
-		2.4 RepeatMissingNumber : Given an unsorted array of size n. Array elements are in the range from 1 to n. One number from set {1, 2, Ön} is missing 
+		2.4 RepeatMissingNumber : Given an unsorted array of size n. Array elements are in the range from 1 to n. One number from set {1, 2, ‚Ä¶n} is missing 
 								  and one number occurs twice in the array. Find these two numbers.
 			https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/
-		2.5 MaxIndexDistance: Given an array arr[], find the maximum j ñ i such that arr[j] > arr[i].
+		2.5 MaxIndexDistance: Given an array arr[], find the maximum j ‚Äì i such that arr[j] > arr[i].
 			https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
 		2.6 DuplicateInArray: Find duplicates in O(n) time and O(1) extra space. Given an array of n elements which contains elements from 0 to n-1, with any 
 							  of these numbers appearing any number of times. Find these repeating numbers in O(n) and using only constant memory space.
 							  https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
 							  https://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/
-		2.7 MajorityElementOfArray: Write a function which takes an array and prints the majority element (if it exists), otherwise prints ìNo Majority Elementî
+		2.7 MajorityElementOfArray: Write a function which takes an array and prints the majority element (if it exists), otherwise prints ‚ÄúNo Majority Element‚Äù
 							  https://www.geeksforgeeks.org/majority-element/
 
 
 
 #05.StringManipulations
-	1. StringManipulationExamples
-		1.1 ReverseString : Return the string A after reversing the string word by word.
+	5. StringManipulationExamples
+		5.1 ReverseString : Return the string A after reversing the string word by word.
 			https://www.interviewbit.com/problems/reverse-the-string/
-		1.2 CheckSubString : Check if a string is substring of another
+		5.2 CheckSubString : Check if a string is substring of another
 			https://www.geeksforgeeks.org/check-string-substring-another/
-		1.3 AddBinaryString : Add two binary strings
+		5.3 AddBinaryString : Add two binary strings
 			https://www.geeksforgeeks.org/program-to-add-two-binary-strings/
-		1.4 PalindromeCheck : Program to check if a string is palindrome or not
-		1.5 LongestPalindromeSubstring : 
-		1.6 AVeryBigSum : In this challenge, you are required to calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.
+		5.4 PalindromeCheck : Program to check if a string is palindrome or not
+		5.5 LongestPalindromeSubstring : 
+		5.6 AVeryBigSum : In this challenge, you are required to calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.
 			https://www.hackerrank.com/challenges/a-very-big-sum/problem
 
 		FirstNonRepeatedCharInString
@@ -60,13 +60,13 @@
 		1.4. StringCaseConversion
 
 #07.StacksAndQueues
-	1. BracketProblems
-		1.1 BalancedParantheses : For example, the string "{[()()]}" is properly nested but "([)()]" is not.
+  7. BracketProblems
+    7.1 BalancedParantheses : For example, the string "{[()()]}" is properly nested but "([)()]" is not.
 			https://www.interviewbit.com/problems/generate-all-parentheses/
-		1.2 BracketSequence : A bracket sequence is a string that contains only characters '(' and ')	
-		1.3 RedundantBracket : Expression contains redundant bracket or not
+		7.2 BracketSequence : A bracket sequence is a string that contains only characters '(' and ')	
+		7.3 RedundantBracket : Expression contains redundant bracket or not
 			https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/
-		1.4	Evaluate Expression : Evaluate the value of an arithmetic expression in Reverse Polish Notation(Postfix notation).
+		7.4	Evaluate Expression : Evaluate the value of an arithmetic expression in Reverse Polish Notation(Postfix notation).
 
 
 
@@ -75,6 +75,3 @@
 	1. ProblemSolving
 		1.1 PhoneLetterCombinations : Given an integer array containing digits from [0, 9], the task is to print all possible letter combinations that the numbers could represent.
 			https://www.geeksforgeeks.org/iterative-letter-combinations-of-a-phone-number/
-
-
-	
