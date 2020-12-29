@@ -36,7 +36,9 @@
 		2.7 MajorityElementOfArray: Write a function which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”
 							  https://www.geeksforgeeks.org/majority-element/
 
+#03.Algorithms
 
+#04.SoftwareEngineering
 
 #05.StringManipulations
 	5. StringManipulationExamples
@@ -59,6 +61,8 @@
 			1.2.3
 		1.4. StringCaseConversion
 
+#06.SoftwareEngineering
+
 #07.StacksAndQueues
   7. BracketProblems
     7.1 BalancedParantheses : For example, the string "{[()()]}" is properly nested but "([)()]" is not.
@@ -72,6 +76,6 @@
 
 
 #08.ProblemSolving
-	1. ProblemSolving
-		1.1 PhoneLetterCombinations : Given an integer array containing digits from [0, 9], the task is to print all possible letter combinations that the numbers could represent.
+	8. ProblemSolving
+		8.1 PhoneLetterCombinations : Given an integer array containing digits from [0, 9], the task is to print all possible letter combinations that the numbers could represent.
 			https://www.geeksforgeeks.org/iterative-letter-combinations-of-a-phone-number/
