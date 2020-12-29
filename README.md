@@ -1,6 +1,7 @@
 # AlgorithmsAndProblems
 
 #01.DataStructure
+
 	1. Tree: BinarySearchTree
 		1.1 IsBstUtil: Check if a binary tree is BST or not
 			https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
