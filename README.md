@@ -72,14 +72,13 @@
 
 #07.StacksAndQueues
 
-  7. BracketProblems
-    7.1 BalancedParantheses : For example, the string "{[()()]}" is properly nested but "([)()]" is not.
+	7. BracketProblems
+		7.1 BalancedParantheses : For example, the string "{[()()]}" is properly nested but "([)()]" is not.
 			https://www.interviewbit.com/problems/generate-all-parentheses/
 		7.2 BracketSequence : A bracket sequence is a string that contains only characters '(' and ')	
 		7.3 RedundantBracket : Expression contains redundant bracket or not
 			https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/
 		7.4	Evaluate Expression : Evaluate the value of an arithmetic expression in Reverse Polish Notation(Postfix notation).
-
 
 
 
