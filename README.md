@@ -67,7 +67,11 @@
 
 #06.Linklist
 
+	6. LinkListProblems
+		6.1 CircularLinkedList
+
 #07.StacksAndQueues
+
   7. BracketProblems
     7.1 BalancedParantheses : For example, the string "{[()()]}" is properly nested but "([)()]" is not.
 			https://www.interviewbit.com/problems/generate-all-parentheses/
@@ -80,6 +84,7 @@
 
 
 #08.ProblemSolving
+
 	8. ProblemSolving
 		8.1 PhoneLetterCombinations : Given an integer array containing digits from [0, 9], the task is to print all possible letter combinations that the numbers could represent.
 			https://www.geeksforgeeks.org/iterative-letter-combinations-of-a-phone-number/
