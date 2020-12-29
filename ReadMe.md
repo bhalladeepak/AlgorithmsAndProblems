@@ -36,7 +36,9 @@
 		2.7 MajorityElementOfArray: Write a function which takes an array and prints the majority element (if it exists), otherwise prints “No Majority Element”
 							  https://www.geeksforgeeks.org/majority-element/
 
+#03.Algorithms
 
+#04.SoftwareEngineering
 
 #05.StringManipulations
 	5. StringManipulationExamples
