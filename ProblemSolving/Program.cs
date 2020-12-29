@@ -13,15 +13,19 @@ namespace ProblemSolving
             //print fizz if multiple of 3, print buzz if multiple of 5 or else print fizzbuzz if multiple of both 3 and 5
             //FizzBuzz.PrintFizzBuzz();
 
-            //Parentheses balance checke example
-            Console.WriteLine(BalancedParentheses.ValidateString("[{]"));
-
+            PhoneLetterCombinations.GetLetterCombinations();
 
             Console.WriteLine(Palindrome.CheckPalindromeWithStack("xyz"));
-
             int angel = CalculateAngele.GetAngel(3.00, 30.00);
             Console.WriteLine(angel);
+
+
+            ArithmeticExpressionEvalution.PrintEvaluateExpression();
+
             Console.ReadLine();
+
+
+
         }
     }
 }

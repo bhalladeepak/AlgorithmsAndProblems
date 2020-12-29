@@ -15,7 +15,7 @@ namespace ProblemSolving
         /// <returns></returns>
         public static string CheckPalindromeWithStack(string input)
         {
-            bool isPalandrome = true;
+            bool isPalndrome = true;
             Stack<char> cstack = new Stack<char>();
             var inputToUpper = input.ToUpper();
 
@@ -30,12 +30,12 @@ namespace ProblemSolving
             {
                 if(inputToUpper[i] != cstack.Pop())
                 {
-                    isPalandrome = false;
+                    isPalndrome = false;
                     break;
                 }
             }
 
-            if(isPalandrome)
+            if(isPalndrome)
             {
                 return "Palindrome";
             }

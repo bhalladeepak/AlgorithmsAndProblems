@@ -1,0 +1,7 @@
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\bin\Debug\NumberManipulationsExamples.exe.config
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\bin\Debug\NumberManipulationsExamples.exe
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\bin\Debug\NumberManipulationsExamples.pdb
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\obj\Debug\NumberManipulationsExamples.csprojAssemblyReference.cache
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\obj\Debug\NumberManipulationsExamples.csproj.CoreCompileInputs.cache
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\obj\Debug\NumberManipulationsExamples.exe
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\NumberManipulationsExamples\obj\Debug\NumberManipulationsExamples.pdb

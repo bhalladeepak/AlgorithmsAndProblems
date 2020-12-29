@@ -7,38 +7,70 @@ namespace BinarySearchTree
 {
     class Program
     {
+
+
+
+
         static void Main(string[] args)
         {
-            BST bstObject = new BST();
-            bstObject.InsertNode(23);
-            bstObject.InsertNode(45);
-            bstObject.InsertNode(16);
-            bstObject.InsertNode(37);
-            bstObject.InsertNode(3);
-            bstObject.InsertNode(17);
-            bstObject.InsertNode(99);
-            bstObject.InsertNode(90);
-            bstObject.InsertNode(30);
+            Tree bst = new Tree();
+
+            int[] array = { 5, 1, 4, 3, 6 };
+            //int[] array = { 25, 15, 50, 10, 22, 4, 12, 18, 24, 35, 70, 31, 44, 66, 90};
+
+            foreach (var a in array)
+            {
+                bst.InsertNode(a);
+            }
+
+            Console.Write("InOrder Traversals(Left, Root, Right) : ");
+            bst.InOrderTraversal(bst.Root);
+
+            Console.WriteLine();
+
+            Console.Write("PreOrder Traversals(Root, Left, Right) : ");
+            bst.PreOrderTraversal(bst.Root);
+            
+            Console.WriteLine();
+
+            Console.Write("PostOrder Traversals(Left, Right, Root) : ");
+            bst.PostOrderTraversal(bst.Root);
+
+            Console.WriteLine();
+
+            Console.Write("Print nodes at level 1 : ");
+            bst.PrintGivenLevel(bst.Root, 2);
+
+            //BST bstObject = new BST();
+            //bstObject.InsertNode(23);
+            //bstObject.InsertNode(45);
+            //bstObject.InsertNode(16);
+            //bstObject.InsertNode(37);
+            //bstObject.InsertNode(3);
+            //bstObject.InsertNode(17);
+            //bstObject.InsertNode(99);
+            //bstObject.InsertNode(90);
+            //bstObject.InsertNode(30);
 
 
             //Console.Write("Find Minimum: ");
-            //bstObject.FindMinimumNode(bstObject.Root);
+            //bstObject.PrintMinNode(bstObject.Root);
 
 
             //////////////Console.Write("\n\n");
             //////////////Console.Write("Find Maximum: ");
-            //////////////bstObject.FindMaxNode(bstObject.Root);
+            //////////////bstObject.PrintMaxNode(bstObject.Root);
 
 
             ////////////////Console.Write("\n\n");
             ////////////////Console.Write("Inorder Traversal : ");
             ////////////////bstObject.InOrderTraversal(bstObject.Root);
 
-            Console.Write("\n\n");
-            Console.Write("Height or Depth of the tree : ");
-            Console.WriteLine(bstObject.MaxDepth(bstObject.Root));
+            //Console.Write("\n\n");
+            //Console.Write("Height or Depth of the tree : ");
+            //Console.WriteLine(bstObject.MaxDepth(bstObject.Root));
 
-            bstObject.PrintLevelOrder(bstObject.Root);
+            //bstObject.PrintLevelOrder(bstObject.Root);
 
             //////////////Console.Write("\n\n");
             //////////////Console.Write("Pre Order Traversal : ");
@@ -55,6 +87,7 @@ namespace BinarySearchTree
             //////////////bstObject.FindNode(99);
 
 
+            
             Console.Write("\n\n");
             Console.Write("Finding Sum of all the nodes : ");
             //Console.Write(bstObject.FindSumOfAlLeafNode(bstObject.Root));
@@ -86,9 +119,9 @@ namespace BinarySearchTree
 
 
 
-            LargestBSTSubtree b = new LargestBSTSubtree();
-            int result =  b.largestBSTSubtree(bstObject.Root);
-            Console.Write("largest bst (may not include all children): " + result);
+            //LargestBSTSubtree b = new LargestBSTSubtree();
+            //int result =  b.largestBSTSubtree(bstObject.Root);
+            //Console.Write("largest bst (may not include all children): " + result);
 
             //int largeBST = b.largestBSTSubtree1(bstObject.Root);
             //if (largeBST != null)

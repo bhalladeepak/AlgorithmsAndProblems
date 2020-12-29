@@ -60,7 +60,7 @@ namespace IntegerArrayProblems
             {
                 arrayDict.Add(i, array[i]);
             }
-
+            
             //Step 2 : Loop through each key in the dictionary and find the matching value  
             foreach (var item in arrayDict)
             {
@@ -68,7 +68,7 @@ namespace IntegerArrayProblems
                 if (arrayDict.ContainsValue(valueToCheck))
                 {
                     int pair = arrayDict.FirstOrDefault(x => x.Value == valueToCheck).Key;
-                    Console.WriteLine("{0}{1}", item.Key,  pair);
+                    Console.WriteLine("({0},{1})", item.Key,  pair);
 
                 }
             }
@@ -78,19 +78,18 @@ namespace IntegerArrayProblems
 
         public static void PairOfSumHelpers()
         {
-            
-            int[] array = { 2, 4, 3, 5, 2, 8, 9 };
-            int sumToCheck = 6;
-            Console.WriteLine("USING BRUTE FORCE");
+
+            int[] array = {1, 3, 5, 7, 8, 2, 5, 7};
+            int sumToCheck = 8;
+
             ArrayHelpers.PrintIntArray(array);
             Console.WriteLine("Input Sum : " + sumToCheck);
             Console.WriteLine("Integer numbers, whose sum is equal to value : " + sumToCheck);
+            Console.WriteLine("USING BRUTE FORCE");
             PrintPairsUsingBruteForce(array, sumToCheck);
-
+            Console.WriteLine("USING DICTIONARY");
             PrintPairsUsingDictionary(array, sumToCheck);
-
-
-            
+           
 
         }
     }

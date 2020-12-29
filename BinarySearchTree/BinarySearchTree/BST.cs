@@ -13,93 +13,7 @@ namespace BinarySearchTree
         {
             Root = null;
         }
-
-        //The procedure InsertNode runs in O(h) time on a tree of height h.
-        public void InsertNode(int nodeData) 
-        {
-            Node nodeToAdd = new Node();
-            nodeToAdd.Data = nodeData;
-
-            if (Root == null)
-                Root = nodeToAdd;
-            else
-            {
-                Node currentNode = Root;
-                while (true)
-                {
-                    Node parentNode = currentNode;
-                    if (nodeData < currentNode.Data)
-                    {
-                        currentNode = currentNode.Left;
-                        if (currentNode == null)
-                        {
-                            parentNode.Left = nodeToAdd;
-                            break;
-                        }
-                    }
-                    else
-                    {
-                        currentNode = currentNode.Right;
-                        if (currentNode == null)
-                        {
-                            parentNode.Right = nodeToAdd;
-                            break;
-                        }
-                    }
-                }
-            }
-        }
         
-        public void InOrderTraversal(Node rootNode)
-        {
-            if (rootNode != null)
-            {
-                InOrderTraversal(rootNode.Left);
-                rootNode.DisplayNode();
-                InOrderTraversal(rootNode.Right);
-
-                
-            }
-        }
-        public void PreOrderTraversal(Node rootNode)
-        {
-            if(rootNode != null)
-            {
-                rootNode.DisplayNode();
-                PreOrderTraversal(rootNode.Left);
-                PreOrderTraversal(rootNode.Right);
-            }
-
-        }
-        public void PostOrderTraversal(Node rootNode)
-        {
-            if(rootNode != null)
-            {
-                PostOrderTraversal(rootNode.Left);
-                PostOrderTraversal(rootNode.Right);
-                rootNode.DisplayNode();
-
-            }
-        }
-
-        public int FindMinimumNode(Node rootNode)
-        {
-            Node currentNode = rootNode;
-            while (currentNode.Left != null)
-                currentNode = currentNode.Left;
-            currentNode.DisplayNode();
-            return 1;
-
-        }
-
-        public int FindMaxNode(Node rootNode)
-        {
-            Node currentNode = rootNode;
-            while (currentNode.Right != null)
-                currentNode = currentNode.Right;
-            currentNode.DisplayNode();
-            return 1;
-        }
 
         //Find sum of all the leaf nodes in the tree 
         public int FindSumOfAlLeafNode(Node rootNode)
@@ -252,6 +166,56 @@ namespace BinarySearchTree
         }
 
 
+        /*
+
+                //The procedure InsertNode runs in O(h) time on a tree of height h.
+        public void InsertNode(int nodeData) 
+        {
+            Node nodeToAdd = new Node(nodeData);
+            nodeToAdd.Data = nodeData;
+
+            if (Root == null)
+                Root = nodeToAdd;
+            else
+            {
+                Node currentNode = Root;
+                while (true)
+                {
+                    Node parentNode = currentNode;
+                    if (nodeData < currentNode.Data)
+                    {
+                        currentNode = currentNode.Left;
+                        if (currentNode == null)
+                        {
+                            parentNode.Left = nodeToAdd;
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        currentNode = currentNode.Right;
+                        if (currentNode == null)
+                        {
+                            parentNode.Right = nodeToAdd;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        public void PrintMaxNode(Node rootNode)
+        {
+            Node maxNode = FindMaxNode(rootNode);
+            Console.WriteLine($"Max value : {maxNode.Data}" );
+        }
+
+        public void PrintMinNode(Node rootNode)
+        {
+            Node minNode = FindMinNode(rootNode);
+            Console.WriteLine($"Min value : {minNode.Data}");
+        }
 
         public Node FindMinNode(Node rootNode)
         {
@@ -265,7 +229,7 @@ namespace BinarySearchTree
   
         }
 
-        public Node FindMaximumNode(Node rootNode)
+        public Node FindMaxNode(Node rootNode)
         {
             Node currentNode = rootNode;
             if (currentNode != null)
@@ -284,7 +248,7 @@ namespace BinarySearchTree
             bool result;
             if (!isBST.TryGetValue(node, out result))
             {
-                Node maxLeft = FindMaximumNode(node.Left);
+                Node maxLeft = FindMaxNode(node.Left);
                 Node minRight = FindMinNode(node.Right);
                 result = (maxLeft == null || maxLeft.Data <= node.Data) &&
                          (minRight == null || minRight.Data >= node.Data) &&
@@ -294,6 +258,41 @@ namespace BinarySearchTree
             return result;
         }
         
+
+
+        public void InOrderTraversal(Node rootNode)
+        {
+            if (rootNode != null)
+            {
+                InOrderTraversal(rootNode.Left);
+                rootNode.DisplayNode();
+                InOrderTraversal(rootNode.Right);
+
+                
+            }
+        }
+        public void PreOrderTraversal(Node rootNode)
+        {
+            if(rootNode != null)
+            {
+                rootNode.DisplayNode();
+                PreOrderTraversal(rootNode.Left);
+                PreOrderTraversal(rootNode.Right);
+            }
+
+        }
+        public void PostOrderTraversal(Node rootNode)
+        {
+            if(rootNode != null)
+            {
+                PostOrderTraversal(rootNode.Left);
+                PostOrderTraversal(rootNode.Right);
+                rootNode.DisplayNode();
+
+            }
+        }
+        */
+
         public void LargestBST(Node bt, IDictionary<Node, bool> isBST, IDictionary<Node, int> nodeCount, ref Node largestBST)
         {
             if (bt == null)
@@ -349,6 +348,8 @@ namespace BinarySearchTree
                 Console.Write("\n");
             }
         }
+
+
         void PrintGivenLevel(Node node, int level)
         {
             if(node == null)

@@ -1,0 +1,2 @@
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csprojAssemblyReference.cache
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.CoreCompileInputs.cache

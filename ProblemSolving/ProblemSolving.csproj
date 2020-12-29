@@ -46,15 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BalancedParentheses.cs" />
+    <Compile Include="ArithmeticExpressionEvalution.cs" />
     <Compile Include="CalculateAngele.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Palindrome.cs" />
+    <Compile Include="PhoneLetterCombinations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

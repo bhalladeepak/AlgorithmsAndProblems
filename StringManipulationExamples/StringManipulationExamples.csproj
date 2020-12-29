@@ -45,16 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBinaryString.cs" />
+    <Compile Include="AVeryBigSum.cs" />
+    <Compile Include="CheckSubString.cs" />
     <Compile Include="FirstNonRepeatedCharInString.cs" />
     <Compile Include="FirstRepeatedCharInString.cs" />
+    <Compile Include="Palindrome\LongestPalindroneSubstring.cs" />
+    <Compile Include="Palindrome\PalindromeCheck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseString.cs" />
     <Compile Include="StringCaseConversion.cs" />
     <Compile Include="StringExercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2011
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "Algorithms\SortingAlgorithms.csproj", "{5A8B32F1-4081-432A-ABAC-23B1565EA05F}"
 EndProject
@@ -38,6 +38,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorials", "..\CSharpTutorials\CSharpTutorials.csproj", "{4BC3EB4F-75AE-482D-83FA-7F8632855D0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCopy", "..\DeepCopy\DeepCopy.csproj", "{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.StringManipulations", "05.StringManipulations", "{75ADB5C8-6F73-47DE-83C3-5CF8C8C97552}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracketProblems", "BracketProblems\BracketProblems.csproj", "{B4659396-3CA1-4F24-822F-0494E34B64F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{CF245334-BF62-485B-A101-DA54858B1877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCF52DEA-4FAD-489C-9030-2A190E88EFD0}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.LinkList", "06.LinkList", "{439A56D7-0001-4275-9E18-AB15B8FB153B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.StacksAndQueues", "07.StacksAndQueues", "{643A58F7-7724-46A5-BD25-0252601A41D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.ProblemSolving", "08.ProblemSolving", "{0453EBC9-C13E-41B8-8246-501CF730348C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +222,30 @@ Global
 		{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6}.Release|Mixed Platforms.Build.0 = Release|x86
 		{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6}.Release|x86.ActiveCfg = Release|x86
 		{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6}.Release|x86.Build.0 = Release|x86
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4659396-3CA1-4F24-822F-0494E34B64F3}.Release|x86.Build.0 = Release|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Debug|x86.Build.0 = Debug|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF245334-BF62-485B-A101-DA54858B1877}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -212,72 +253,19 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5A8B32F1-4081-432A-ABAC-23B1565EA05F} = {1911F261-3FD4-4617-BC49-694E89C7DC80}
 		{F694D71A-6F99-437D-A5BF-FB8F14817CE3} = {F38055AA-2D66-4C40-A72A-8DBCA59AA829}
-		{A285469E-EE9E-4AD1-B0F3-4CFE8ACA6F20} = {F38055AA-2D66-4C40-A72A-8DBCA59AA829}
+		{1376A4D6-31CB-4DDC-B62B-1691CD779237} = {75ADB5C8-6F73-47DE-83C3-5CF8C8C97552}
+		{A285469E-EE9E-4AD1-B0F3-4CFE8ACA6F20} = {439A56D7-0001-4275-9E18-AB15B8FB153B}
+		{5D97D3B5-D51C-4427-AF21-197DF636AF49} = {0453EBC9-C13E-41B8-8246-501CF730348C}
 		{D73309F9-8FD9-4D5C-871B-D9191EFC5C4B} = {49A7B020-76B2-4D6C-B5D1-0D60A043B8D9}
 		{8FEBB309-2105-4A0A-A052-588933B87388} = {49A7B020-76B2-4D6C-B5D1-0D60A043B8D9}
 		{3766A04A-BB4C-4F37-BBA4-BE9E20B7B82A} = {F38055AA-2D66-4C40-A72A-8DBCA59AA829}
 		{5444EB80-C9EA-45F4-BCAD-8C3E66C50BF9} = {496B762C-46CB-42DE-95EB-FFA46CFF0C17}
 		{4BC3EB4F-75AE-482D-83FA-7F8632855D0D} = {49A7B020-76B2-4D6C-B5D1-0D60A043B8D9}
 		{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6} = {49A7B020-76B2-4D6C-B5D1-0D60A043B8D9}
+		{B4659396-3CA1-4F24-822F-0494E34B64F3} = {643A58F7-7724-46A5-BD25-0252601A41D4}
+		{CF245334-BF62-485B-A101-DA54858B1877} = {F38055AA-2D66-4C40-A72A-8DBCA59AA829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A27B8049-1F98-4A7E-AFD5-51BFEE649914}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 15
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://deepakbhalla.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ..\\BinarySearchTree\\BinarySearchTree\\BinarySearchTree.csproj
-		SccProjectTopLevelParentUniqueName1 = ConsoleApplicationCollections.sln
-		SccProjectName1 = ../BinarySearchTree/BinarySearchTree
-		SccLocalPath1 = ..\\BinarySearchTree\\BinarySearchTree
-		SccProjectUniqueName2 = ..\\NumberManipulationsExamples\\NumberManipulationsExamples.csproj
-		SccProjectName2 = ../NumberManipulationsExamples
-		SccLocalPath2 = ..\\NumberManipulationsExamples
-		SccProjectUniqueName3 = ..\\StringManipulationExamples\\StringManipulationExamples.csproj
-		SccProjectName3 = ../StringManipulationExamples
-		SccLocalPath3 = ..\\StringManipulationExamples
-		SccProjectUniqueName4 = LinkListProblems\\LinkListProblems.csproj
-		SccProjectTopLevelParentUniqueName4 = ConsoleApplicationCollections.sln
-		SccProjectName4 = LinkListProblems
-		SccLocalPath4 = LinkListProblems
-		SccProjectUniqueName5 = ..\\ProblemSolving\\ProblemSolving.csproj
-		SccProjectName5 = ../ProblemSolving
-		SccLocalPath5 = ..\\ProblemSolving
-		SccProjectUniqueName6 = ..\\DesignPatterns\\DesignPatterns.csproj
-		SccProjectTopLevelParentUniqueName6 = ConsoleApplicationCollections.sln
-		SccProjectName6 = ../DesignPatterns
-		SccLocalPath6 = ..\\DesignPatterns
-		SccProjectUniqueName7 = ..\\OOPPrinciples\\OOPPrinciples.csproj
-		SccProjectTopLevelParentUniqueName7 = ConsoleApplicationCollections.sln
-		SccProjectName7 = ../OOPPrinciples
-		SccLocalPath7 = ..\\OOPPrinciples
-		SccProjectUniqueName8 = ..\\DataStructures\\ElementaryDataStructures.csproj
-		SccProjectTopLevelParentUniqueName8 = ConsoleApplicationCollections.sln
-		SccProjectName8 = ../DataStructures
-		SccLocalPath8 = ..\\DataStructures
-		SccProjectUniqueName9 = ..\\IntegerArrayProblems\\IntegerArrayProblems.csproj
-		SccProjectTopLevelParentUniqueName9 = ConsoleApplicationCollections.sln
-		SccProjectName9 = ../IntegerArrayProblems
-		SccLocalPath9 = ..\\IntegerArrayProblems
-		SccProjectUniqueName10 = ..\\CommonHelpers\\CommonHelpers.csproj
-		SccProjectName10 = ../CommonHelpers
-		SccLocalPath10 = ..\\CommonHelpers
-		SccProjectUniqueName11 = ..\\SandBoxProject\\SandBoxProject.csproj
-		SccProjectName11 = ../SandBoxProject
-		SccLocalPath11 = ..\\SandBoxProject
-		SccProjectUniqueName12 = Algorithms\\SortingAlgorithms.csproj
-		SccProjectTopLevelParentUniqueName12 = ConsoleApplicationCollections.sln
-		SccProjectName12 = Algorithms
-		SccLocalPath12 = Algorithms
-		SccProjectUniqueName13 = ..\\CSharpTutorials\\CSharpTutorials.csproj
-		SccProjectTopLevelParentUniqueName13 = ConsoleApplicationCollections.sln
-		SccProjectName13 = ../CSharpTutorials
-		SccLocalPath13 = ..\\CSharpTutorials
-		SccProjectUniqueName14 = ..\\DeepCopy\\DeepCopy.csproj
-		SccProjectTopLevelParentUniqueName14 = ConsoleApplicationCollections.sln
-		SccProjectName14 = ../DeepCopy
-		SccLocalPath14 = ..\\DeepCopy
 	EndGlobalSection
 EndGlobal

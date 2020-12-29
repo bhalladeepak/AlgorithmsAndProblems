@@ -47,10 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MergeArrays.cs" />
+    <Compile Include="MaxMinMajorityMissingDuplicate\MajorityElementOfArray.cs" />
+    <Compile Include="CutTheTree.cs" />
+    <Compile Include="DuplicateOrMissingElement\DistinctValuesInArray.cs" />
+    <Compile Include="DuplicateOrMissingElement\DuplicateInArray.cs" />
+    <Compile Include="MaxMinMajorityMissingDuplicate\FindLargestAndSmallestInArray.cs" />
+    <Compile Include="MaxMinMajorityMissingDuplicate\FindMinRotateArray.cs" />
+    <Compile Include="Matrix\SpiralOrderMatrix.cs" />
+    <Compile Include="MaxMinMajorityMissingDuplicate\MaxIndexDistance.cs" />
+    <Compile Include="MaxMinMajorityMissingDuplicate\MaxSumContiguousSubarray.cs" />
+    <Compile Include="MergeIntArrays.cs" />
     <Compile Include="PairOfSum.cs" />
+    <Compile Include="PairsHavingSimilarElements.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Matrix\Matrix.cs" />
+    <Compile Include="DuplicateOrMissingElement\RepeatMissingNumber.cs" />
+    <Compile Include="SegregateOneAndZeros.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -61,5 +74,6 @@
       <Name>CommonHelpers</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

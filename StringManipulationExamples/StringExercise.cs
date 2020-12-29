@@ -56,7 +56,7 @@ namespace StringManipulationExamples
             //contains a collection of chars in the string
             string encounterChar = string.Empty;
 
-            //store the resulet in the string
+            //store the result in the string
             string result = string.Empty;
 
             foreach (char c in str)

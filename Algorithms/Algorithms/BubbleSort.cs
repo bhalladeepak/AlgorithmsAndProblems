@@ -13,7 +13,7 @@ namespace SortingAlgorithms
         {
             //1. Consiste of 2 for loop
             //2. The outer loop run from 1 to ArrayLength in the array
-            //3. The inner loop ruuns from [outer + 1] to ArrayLength
+            //3. The inner loop run from [outer + 1] to ArrayLength
             //3. At the end of the each outer loop the highest number moved to the right of the array.
             //4. The worst case performance for bubble sort is O(n^2)
             //5. The best case performance for bubble sort is O(n)

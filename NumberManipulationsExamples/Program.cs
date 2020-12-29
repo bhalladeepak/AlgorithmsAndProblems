@@ -32,27 +32,6 @@ namespace NumberManipulationsExamples
             //swap.Swap();
             //---------------------------------------------------------------------------------------------------------------------//
 
-            //Palindrome objPalindrome = new Palindrome();
-            //objPalindrome.CheckPalindrome(151);
-            //---------------------------------------------------------------------------------------------------------------------//
-
-            //int[,] matrix = new int[4,4]{{2,3,4,5},{1,43,5,8},{0,3,6,5},{0,3,4,7}};
-            //PrintMatrixSpirally printMatrix = new PrintMatrixSpirally();
-            //printMatrix.PrintMatrix(matrix);
-            //---------------------------------------------------------------------------------------------------------------------//
-
-            /*
-            int[] firstArray = new[] {1, 2, 5};
-            int[] seconeArray = new[] {5,7,8,5,9};
-            int[] mergeArray = Arrays.Merge(firstArray, seconeArray);
-
-            for (int i = 0; i < mergeArray.Length; i++)
-            {
-                Console.Write(mergeArray[i]);
-            }
-            Console.ReadLine();
-            */
-
             /*
             int[] zeroOneArray = new[] {1, 0, 1, 0, 0, 0, 1};
             int[] sortedArray = Arrays.SegragateOneAndZeros(zeroOneArray);
@@ -65,11 +44,22 @@ namespace NumberManipulationsExamples
             */
 
             //---------------------------------------------------------------------------------------------------------------------//
-            Console.WriteLine("Nuclear Rods Cost Example!");
-            int minCost = NuclearRods.minimalCost(4, new string[] { "1 2", "1 4" });
-            Console.WriteLine(string.Format("Minimal Cost is: {0}", minCost));
+            //Console.WriteLine("Nuclear Rods Cost Example!");
+            //int minCost = NuclearRods.minimalCost(4, new string[] { "1 2", "1 4" });
+            //Console.WriteLine(string.Format("Minimal Cost is: {0}", minCost));
             //---------------------------------------------------------------------------------------------------------------------//
+
+
+            //---------------------------------------------------------------------------------------------------------------------//
+            Console.WriteLine("Sum of two large numbers");
+            SumOfTwoLargeNumbers.PrintSum();
+            
+            //---------------------------------------------------------------------------------------------------------------------//
+
+
             Console.ReadLine();
+
+
 
         }
     }

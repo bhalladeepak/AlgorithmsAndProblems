@@ -49,7 +49,36 @@ namespace StringManipulationExamples
             Console.WriteLine("Duplicate chars : " + duplicateChars);
 
             #endregion
+
+            //---------------------------------------------------------------------------------------------------------------------//
+            
+            Console.WriteLine("Reverse the String");
+            ReverseString.PrintReverse();
+            
+            //---------------------------------------------------------------------------------------------------------------------//
+
+
+            Console.WriteLine("");
+            Console.WriteLine("SubString");
+            CheckSubString.PrintSubStringIndex();
+
+            //---------------------------------------------------------------------------------------------------------------------//
+
+            Console.WriteLine("");
+            Console.WriteLine("Add Binary Strings");
+            AddBinaryString.PrintAddition();
+            //---------------------------------------------------------------------------------------------------------------------//
+
+            Console.WriteLine("");
+            Console.WriteLine("Palindrome check");
+            PalindromeCheck.CheckPalindrome();
+            //---------------------------------------------------------------------------------------------------------------------//
+
+
+
+            
             Console.ReadLine();
+            
         }
     }
 }

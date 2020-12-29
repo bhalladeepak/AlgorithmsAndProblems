@@ -40,5 +40,18 @@ namespace NumberManipulationsExamples
                 Fibonacci_temp(second, first + second, count + 1, len);
             }
         }
+
+        //Write a program in C# Sharp to create a recursive function to calculate the Fibonacci number of a specific term.
+        public static int FibonacciRecursive(int n)
+        {
+            if (n <= 1)
+            {
+                return n;
+            }
+            else
+            {
+                return FibonacciRecursive(n - 1) + FibonacciRecursive(n - 2);
+            }
+        }
     }
 }
