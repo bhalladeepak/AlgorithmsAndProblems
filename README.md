@@ -37,6 +37,8 @@
 							  https://www.geeksforgeeks.org/majority-element/
 
 #03.Algorithms
+	3. SortingAlgorithms
+		3.1 BinarySearch
 
 #04.SoftwareEngineering
 
