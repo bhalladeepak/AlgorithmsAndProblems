@@ -61,7 +61,7 @@
 			1.2.3
 		1.4. StringCaseConversion
 
-#06.SoftwareEngineering
+#06.Linklist
 
 #07.StacksAndQueues
   7. BracketProblems
