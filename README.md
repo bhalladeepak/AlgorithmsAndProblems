@@ -37,12 +37,14 @@
 							  https://www.geeksforgeeks.org/majority-element/
 
 #03.Algorithms
+
 	3. SortingAlgorithms
 		3.1 BinarySearch
 
 #04.SoftwareEngineering
 
 #05.StringManipulations
+
 	5. StringManipulationExamples
 		5.1 ReverseString : Return the string A after reversing the string word by word.
 			https://www.interviewbit.com/problems/reverse-the-string/
