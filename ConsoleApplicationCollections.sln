@@ -3,47 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "Algorithms\SortingAlgorithms.csproj", "{5A8B32F1-4081-432A-ABAC-23B1565EA05F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "Algorithms\Algorithms\SortingAlgorithms.csproj", "{5A8B32F1-4081-432A-ABAC-23B1565EA05F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "..\BinarySearchTree\BinarySearchTree\BinarySearchTree.csproj", "{F694D71A-6F99-437D-A5BF-FB8F14817CE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree\BinarySearchTree.csproj", "{F694D71A-6F99-437D-A5BF-FB8F14817CE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberManipulationsExamples", "..\NumberManipulationsExamples\NumberManipulationsExamples.csproj", "{4DA9F20A-A001-4EF8-9622-4BE637AEB63F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberManipulationsExamples", "NumberManipulationsExamples\NumberManipulationsExamples.csproj", "{4DA9F20A-A001-4EF8-9622-4BE637AEB63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulationExamples", "..\StringManipulationExamples\StringManipulationExamples.csproj", "{1376A4D6-31CB-4DDC-B62B-1691CD779237}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulationExamples", "StringManipulationExamples\StringManipulationExamples.csproj", "{1376A4D6-31CB-4DDC-B62B-1691CD779237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkListProblems", "LinkListProblems\LinkListProblems.csproj", "{A285469E-EE9E-4AD1-B0F3-4CFE8ACA6F20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkListProblems", "Algorithms\LinkListProblems\LinkListProblems.csproj", "{A285469E-EE9E-4AD1-B0F3-4CFE8ACA6F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving", "..\ProblemSolving\ProblemSolving.csproj", "{5D97D3B5-D51C-4427-AF21-197DF636AF49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving", "ProblemSolving\ProblemSolving.csproj", "{5D97D3B5-D51C-4427-AF21-197DF636AF49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "..\DesignPatterns\DesignPatterns.csproj", "{D73309F9-8FD9-4D5C-871B-D9191EFC5C4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{D73309F9-8FD9-4D5C-871B-D9191EFC5C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPrinciples", "..\OOPPrinciples\OOPPrinciples.csproj", "{8FEBB309-2105-4A0A-A052-588933B87388}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPrinciples", "OOPPrinciples\OOPPrinciples.csproj", "{8FEBB309-2105-4A0A-A052-588933B87388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementaryDataStructures", "..\DataStructures\ElementaryDataStructures.csproj", "{3766A04A-BB4C-4F37-BBA4-BE9E20B7B82A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementaryDataStructures", "DataStructures\ElementaryDataStructures.csproj", "{3766A04A-BB4C-4F37-BBA4-BE9E20B7B82A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.DataStructures", "01.DataStructures", "{F38055AA-2D66-4C40-A72A-8DBCA59AA829}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.ArrayProblemsCoolections", "02.ArrayProblemsCoolections", "{496B762C-46CB-42DE-95EB-FFA46CFF0C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerArrayProblems", "..\IntegerArrayProblems\IntegerArrayProblems.csproj", "{5444EB80-C9EA-45F4-BCAD-8C3E66C50BF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerArrayProblems", "IntegerArrayProblems\IntegerArrayProblems.csproj", "{5444EB80-C9EA-45F4-BCAD-8C3E66C50BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonHelpers", "..\CommonHelpers\CommonHelpers.csproj", "{CE0AE6A5-8ABF-4017-9DF1-25857C39CE9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonHelpers", "CommonHelpers\CommonHelpers.csproj", "{CE0AE6A5-8ABF-4017-9DF1-25857C39CE9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxProject", "..\SandBoxProject\SandBoxProject.csproj", "{2A1B75E7-BB9F-46B9-A6E6-7056FD01FD1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBoxProject", "SandBoxProject\SandBoxProject.csproj", "{2A1B75E7-BB9F-46B9-A6E6-7056FD01FD1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Algorithms", "03.Algorithms", "{1911F261-3FD4-4617-BC49-694E89C7DC80}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.SoftwareEngineering", "04.SoftwareEngineering", "{49A7B020-76B2-4D6C-B5D1-0D60A043B8D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorials", "..\CSharpTutorials\CSharpTutorials.csproj", "{4BC3EB4F-75AE-482D-83FA-7F8632855D0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorials", "CSharpTutorials\CSharpTutorials.csproj", "{4BC3EB4F-75AE-482D-83FA-7F8632855D0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCopy", "..\DeepCopy\DeepCopy.csproj", "{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCopy", "DeepCopy\DeepCopy.csproj", "{AB802FA6-1F09-4DC8-9FB4-ABE9514F0CB6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.StringManipulations", "05.StringManipulations", "{75ADB5C8-6F73-47DE-83C3-5CF8C8C97552}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracketProblems", "BracketProblems\BracketProblems.csproj", "{B4659396-3CA1-4F24-822F-0494E34B64F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracketProblems", "Algorithms\BracketProblems\BracketProblems.csproj", "{B4659396-3CA1-4F24-822F-0494E34B64F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{CF245334-BF62-485B-A101-DA54858B1877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Algorithms\Dictionary\Dictionary.csproj", "{CF245334-BF62-485B-A101-DA54858B1877}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCF52DEA-4FAD-489C-9030-2A190E88EFD0}"
 	ProjectSection(SolutionItems) = preProject

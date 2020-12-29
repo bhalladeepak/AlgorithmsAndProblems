@@ -14,7 +14,8 @@
         "outputPath": "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
