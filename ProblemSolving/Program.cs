@@ -13,16 +13,24 @@ namespace ProblemSolving
             //print fizz if multiple of 3, print buzz if multiple of 5 or else print fizzbuzz if multiple of both 3 and 5
             //FizzBuzz.PrintFizzBuzz();
 
-            PhoneLetterCombinations.GetLetterCombinations();
+            //////PhoneLetterCombinations.GetLetterCombinations();
 
-            Console.WriteLine(Palindrome.CheckPalindromeWithStack("xyz"));
-            int angel = CalculateAngele.GetAngel(3.00, 30.00);
-            Console.WriteLine(angel);
+            //////Console.WriteLine(Palindrome.CheckPalindromeWithStack("xyz"));
+            //////int angel = CalculateAngele.GetAngel(3.00, 30.00);
+            //////Console.WriteLine(angel);
 
 
-            ArithmeticExpressionEvalution.PrintEvaluateExpression();
+            ////////ArithmeticExpressionEvalution.PrintEvaluateExpression();
 
+            //////SearchListQuery.Execute();
+
+
+            //AmazonCodingProblem.Execute();
+
+
+            AmazonCodingProblemSecond.Execute();
             Console.ReadLine();
+
 
 
 

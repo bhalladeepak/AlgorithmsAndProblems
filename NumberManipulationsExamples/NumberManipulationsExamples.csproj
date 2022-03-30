@@ -46,10 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FibonacciSeries.cs" />
+    <Compile Include="FindMissingNumInArray.cs" />
     <Compile Include="NuclearRods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SumOfTwoLargeNumbers.cs" />
+    <Compile Include="SumTwoIntegerInArray.cs" />
     <Compile Include="SwapNumbers.cs" />
   </ItemGroup>
   <ItemGroup>

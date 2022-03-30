@@ -1,2 +1,10 @@
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csprojAssemblyReference.cache
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.CoreCompileInputs.cache
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\CommonHelpers.dll
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\CommonHelpers.pdb
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.CopyComplete
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\Algorithms.pdb

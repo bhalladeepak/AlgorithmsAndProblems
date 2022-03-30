@@ -38,9 +38,13 @@ namespace BinarySearchTree
 
             Console.WriteLine();
 
-            Console.Write("Print nodes at level 1 : ");
+            Console.WriteLine("Print nodes at level 1 : ");
             bst.PrintGivenLevel(bst.Root, 2);
 
+
+            Console.WriteLine();
+            BreathFirstSearchUsingQueue bfs = new BreathFirstSearchUsingQueue();
+            bfs.Demo();
             //BST bstObject = new BST();
             //bstObject.InsertNode(23);
             //bstObject.InsertNode(45);
@@ -87,20 +91,20 @@ namespace BinarySearchTree
             //////////////bstObject.FindNode(99);
 
 
-            
-            Console.Write("\n\n");
-            Console.Write("Finding Sum of all the nodes : ");
+
+            Console.WriteLine();
+            Console.WriteLine("Finding Sum of all the nodes : ");
             //Console.Write(bstObject.FindSumOfAlLeafNode(bstObject.Root));
 
 
             //IDictionary<Node, bool> isBST = new SortedList<Node, bool>();
             //IDictionary<Node, int> nodeCount = new SortedList<Node, int>();
             //Node largestBST = null;
-            
+
             //Console.Write("\n\n");
             ////Console.Write(bstObject.NodeCount(bstObject.Root,));
             //bstObject.LargestBST(bstObject.Root, isBST, nodeCount, ref largestBST);
-            
+
             ////bstObject.NodeCount(bstObject.Root, nodeCount);
 
             ////bstObject.InOrderTraversal(bstObject.Root);
@@ -108,12 +112,12 @@ namespace BinarySearchTree
             //Console.Write("End");
             //Console.ReadLine();
 
-        ////////int result = Node.largestBSTSubtree(bstObject.Root);
-        ////////Console.Write("largest bst (may not include all children): " + result);
+            ////////int result = Node.largestBSTSubtree(bstObject.Root);
+            ////////Console.Write("largest bst (may not include all children): " + result);
 
-        ////////LargestBST largeBST = Node.largestBSTSubtree1(bstObject.Root);
-        ////////if (largeBST != null)
-        ////////    Console.Write(largeBST.node.Data + " : size " + largeBST.maxNode);
+            ////////LargestBST largeBST = Node.largestBSTSubtree1(bstObject.Root);
+            ////////if (largeBST != null)
+            ////////    Console.Write(largeBST.node.Data + " : size " + largeBST.maxNode);
 
 
 
@@ -131,7 +135,7 @@ namespace BinarySearchTree
             //if (largeBST2 != null)
             //    Console.Write(largeBST2.node.Data + " : size " + largeBST2.maxNode);
 
-
+            Console.ReadLine();
         }
     }
 }

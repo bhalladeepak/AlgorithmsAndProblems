@@ -13,6 +13,12 @@
 
 		1.5 MaxDepth: Find the max depth of the tree
 
+	2. Trie: Trie is an efficient information reTrieval data structure. Using Trie, search complexities can be brought to optimal limit (key length). 
+			 If we store keys in binary search tree, a well balanced BST will need time proportional to M * log N, where M is maximum string length and N is number of keys in 
+			 tree. Using Trie, we can search the key in O(M) time. However the penalty is on Trie storage requirements
+			 https://www.geeksforgeeks.org/trie-insert-and-search/
+	3. BinaryHeap: Heap Data Structure is generally taught with Heapsort. Heapsort algorithm has limited uses because Quicksort is better in practice.
+			 https://www.geeksforgeeks.org/applications-of-heap-data-structure/
 
 
 #02.ArrayProblemsCollections

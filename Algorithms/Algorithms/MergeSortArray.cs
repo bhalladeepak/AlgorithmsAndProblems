@@ -10,9 +10,12 @@ namespace SortingAlgorithms
     {
         /* Procedure for merging two sorted array. 
          * Note that both array are part of single array. arr1[start.....mid] and arr2[mid+1 ... end]*/
+        //https://www.geeksforgeeks.org/merge-sort/
+        //https://www.interviewbit.com/tutorial/merge-sort-algorithm/
+
         public void MergeArray(int[] arr, int start, int mid, int end)
         {
-            /* Create a temporary array for stroing merged array (Length of temp array will be 
+            /* Create a temporary array for storing merged array (Length of temp array will be 
              * sum of size of both array to be merged)*/
             int[] temp = new int[end - start + 1];
 

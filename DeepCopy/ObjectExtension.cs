@@ -36,7 +36,7 @@ namespace DeepCopy
                 if (property.CanWrite)
                 {
                     //check whether property type is value type, enum or string type
-                    if (property.PropertyType.IsValueType || property.PropertyType.IsEnum || property.PropertyType.Equals(typeof(System.String)))
+                    if (property.PropertyType.IsValueType || property.PropertyType.IsEnum || property.PropertyType.Equals(typeof(String)))
                     {
                         property.SetValue(objTarget, property.GetValue(objSource, null), null);
                     }

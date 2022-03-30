@@ -7,6 +7,11 @@ using System.Text;
 
 namespace Dictionary
 {
+    /*
+     * https://docs.microsoft.com/en-us/java/api/com.azure.cosmos.implementation.guava25.collect.multimap?view=azure-java-stable
+     * 
+     */
+
     public interface IMultiValueDictionary<TKey, TValue>
     {
         /// <summary>Adds a value into the dictionary</summary>
@@ -31,6 +36,8 @@ namespace Dictionary
         /// <param name="key">Key of the items that will be removed</param>
         /// <returns>The number of items that have been removed</returns>
         int RemoveKey(TKey key);
+
+        void AddAll(TKey key, TValue[] values);
 
         IEnumerable<string> Get(TKey key);
     }
@@ -93,6 +100,28 @@ namespace Dictionary
             return count;
         }
 
+        public void AddAll(TKey key, TValue[] values)
+        {
+            if(_dict.ContainsKey(key))
+            {
+                var container = _dict[key];
+                foreach(var v in values)
+                {
+                    container.Add(v);
+                }
+            }
+            else
+            {
+                HashSet<TValue> container = new HashSet<TValue>();
+                
+                foreach (var v in values)
+                {
+                    container.Add(v);
+                }
+                _dict.Add(key, container);
+
+            }
+        }
         public IEnumerable<string> Get(TKey key)
         {
             IEnumerable<string> values = new List<string>();
@@ -104,5 +133,6 @@ namespace Dictionary
 
             return values;
         }
+       
     }
 }

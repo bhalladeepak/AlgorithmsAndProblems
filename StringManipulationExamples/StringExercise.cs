@@ -8,23 +8,10 @@ namespace StringManipulationExamples
 {
     public class StringExercise
     {
-        //Reverse a string
-
         //Check if string 2 is a substring of string 1
         //merging 2 string
         //Finding duplicates chars in a string
-        public static string ReverseString(string valueToReverse)
-        {
-            int valueLength = valueToReverse.Length - 1;
-            string result = "";
-            for (int i = valueLength; i >= 0; i--)
-            {
-                result += valueToReverse[i];
-            }
-            return result;
-            //Console.WriteLine(result);
-            //Console.WriteLine();
-        }
+
 
         //Check if 2 string are equal
         public static bool StringComparison(string str1, string str2)
@@ -84,7 +71,8 @@ namespace StringManipulationExamples
                 }
                 else
                 {
-                    duplicateChar += c;
+                    if(duplicateChar.IndexOf(c) == -1)
+                        duplicateChar += c;
                 }
             }
 

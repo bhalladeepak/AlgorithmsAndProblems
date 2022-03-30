@@ -50,8 +50,15 @@ namespace StringManipulationExamples
 
             #endregion
 
+
+            //---------------------------------------------------------------------------------------------------------------------//
+
+            Console.WriteLine("Reverse a string in Place");
+            ReverseAStringInPlace.ReverseString();
+
             //---------------------------------------------------------------------------------------------------------------------//
             
+
             Console.WriteLine("Reverse the String");
             ReverseString.PrintReverse();
             

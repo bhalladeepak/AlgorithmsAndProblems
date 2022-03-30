@@ -112,16 +112,20 @@ namespace DataStructures
 
             BinaryHeap maxHeap = new BinaryHeap();
             maxHeap.BuildMaxHeap(arr);
+            Console.WriteLine();
+
 
             int? maxValue = maxHeap.Maximum(arr);
             Console.WriteLine("Maximum value in the heap is : {0}", maxValue);
-
+            Console.WriteLine();
 
             int extractMax = maxHeap.ExtractMaximum(arr);
             Console.WriteLine("Extract Maximum value in the heap is : {0}", extractMax);
+            Console.WriteLine();
 
             Console.Write("Array after ExtractMaximum : ");
             ArrayHelpers.PrintIntArray(arr);
+            Console.WriteLine();
 
             maxHeap.MaxHeapInsert(arr, 10);
             Console.Write("Array after Inserting 10 value : ");

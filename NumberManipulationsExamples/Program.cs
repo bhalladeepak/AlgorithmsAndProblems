@@ -53,9 +53,11 @@ namespace NumberManipulationsExamples
             //---------------------------------------------------------------------------------------------------------------------//
             Console.WriteLine("Sum of two large numbers");
             SumOfTwoLargeNumbers.PrintSum();
-            
+
             //---------------------------------------------------------------------------------------------------------------------//
 
+            FindMissingNumInArray.FindMissing();
+            SumTwoIntegerInArray.Execute();
 
             Console.ReadLine();
 

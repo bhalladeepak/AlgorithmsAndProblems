@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmazonCodingProblem.cs" />
+    <Compile Include="AmazonCodingProblemSecond.cs" />
     <Compile Include="ArithmeticExpressionEvalution.cs" />
     <Compile Include="CalculateAngele.cs" />
     <Compile Include="FizzBuzz.cs" />
@@ -53,6 +55,8 @@
     <Compile Include="PhoneLetterCombinations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReconstructItinerary.cs" />
+    <Compile Include="SearchListQuery.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -36,13 +36,16 @@ namespace DataStructures
 
             BinaryHeap binaryHeap = new BinaryHeap();
 
-            //BinaryHeap.MaxHeapHelper();
-            //BinaryHeap.MinHeapHelper();
+            BinaryHeap.MaxHeapHelper();
+            BinaryHeap.MinHeapHelper();
 
 
             binaryHeap.MergeHeap(arr1, arr2);
             #endregion
 
+            #region Trie
+            Trie.Demo();
+            #endregion
             Console.ReadLine();
         }
     }

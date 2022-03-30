@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj": {}
+    "D:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj": {}
   },
   "projects": {
-    "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj": {
+    "D:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj",
+        "projectUniqueName": "D:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj",
         "projectName": "BracketProblems",
-        "projectPath": "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj",
-        "packagesPath": "C:\\Users\\deepak\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\obj\\",
+        "projectPath": "D:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj",
+        "packagesPath": "C:\\Users\\DeepakBhalla\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\deepak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DeepakBhalla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -31,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,12 +53,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.17, 3.1.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

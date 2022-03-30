@@ -15,10 +15,10 @@ namespace StringManipulationExamples
         public static void PrintSubStringIndex()
         {
             Console.WriteLine($"Check if a string is substring of another");
-            string mainStr = "geeksforgeeks";
+            string mainStr = "geeksfogeeforks";
             string subStr = "for";
 
-            int index = SubStringFirstIndex(mainStr, subStr);
+            int index = CheckForSubstringSecondApproach(mainStr, subStr);
 
             Console.WriteLine($"Main string : {mainStr}");
             Console.WriteLine($"SubString : {subStr}");
@@ -48,6 +48,68 @@ namespace StringManipulationExamples
             }
 
             return index;
+
+        }
+
+        private static int CheckForSubstring(string sub, string main)
+        {
+            int index = -1;
+            int innerCounter = 0;
+
+            for (int i = 0; i < main.Length; i++)
+            {
+                innerCounter = i;
+                if (main[i] == sub[0])
+                {
+                    for (int k = 0; k < sub.Length; k++)
+                    {
+                        if (sub[k] == main[innerCounter])
+                        {
+                            innerCounter++;
+                        }
+                    }
+                }
+                if (sub.Length == (innerCounter - i))
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
+        }
+
+        private static int CheckForSubstringSecondApproach(string main, string sub)
+        {
+            int returnIndex = -1;
+            int counter = 0;
+
+            while (counter < main.Length)
+            {
+                if (sub[0] == main[counter])
+                {
+                    returnIndex = counter;
+                    counter++;
+                    int i;
+                    for (i = 1; i < sub.Length; i++)
+                    {
+                        if (sub[i] == main[counter])
+                            counter++;
+                        else
+                            break;
+
+                    }
+                    if (returnIndex == counter - i && i == sub.Length)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        returnIndex = -1;
+                    }
+                }
+                counter++;
+            }
+            return returnIndex;
 
         }
     }

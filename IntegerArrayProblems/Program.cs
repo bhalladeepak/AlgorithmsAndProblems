@@ -104,6 +104,15 @@ namespace IntegerArrayProblems
             MajorityElementOfArray.PrintMajority();
 
             //---------------------------------------------------------------------------------------------------------------------//
+
+
+            Console.WriteLine("");
+            Console.WriteLine("Print all subsets of given size of a set");
+            FindAllArraySubsets.Demo();
+
+            //---------------------------------------------------------------------------------------------------------------------//
+
+
             Console.ReadLine();
         }
     }

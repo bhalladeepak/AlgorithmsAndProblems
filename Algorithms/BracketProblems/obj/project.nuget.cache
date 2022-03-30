@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MTuNbKFzpEC4AwLENA9zSh/5lquQja8NRF71J3BpZg+QLeHvQYrRvO6B/Ycw0gaj+bIqAS+EAXRytnt5DBk+Jg==",
+  "dgSpecHash": "SKWo7sJmp8dSnhDv3eLG5ylLkteeG0WY3lQ8gyz5fx6r9LdPONvxGAIgE9GNApyu+6qN3zL+0iiuuTFkroQ27w==",
   "success": true,
-  "projectFilePath": "E:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\GitHub-Deepakbhalla27\\AlgorithmsAndProblems\\Algorithms\\BracketProblems\\BracketProblems.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DeepakBhalla\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
   "logs": []
 }

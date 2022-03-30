@@ -62,11 +62,17 @@ namespace SortingAlgorithms
             Console.WriteLine("Binary search");
             BinarySearch binarySearch = new BinarySearch();
             binarySearch.FindNumber(sortedArray,57);
+
+
+            #endregion
+
+            #region 5. Quick Sort
+            Console.WriteLine();
+            Console.WriteLine("Quick Sort");
+            QuickSortAlgorithm quickSort = new QuickSortAlgorithm();
+            quickSort.Demo();
             
-
-            #endregion 
-
-
+            #endregion
 
             //CArray nums = new CArray();
             //Random rnd = new Random(100);
