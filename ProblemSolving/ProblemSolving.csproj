@@ -55,7 +55,6 @@
     <Compile Include="PhoneLetterCombinations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReconstructItinerary.cs" />
     <Compile Include="SearchListQuery.cs" />
   </ItemGroup>
   <ItemGroup>

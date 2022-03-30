@@ -8,3 +8,13 @@ E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\C
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.CopyComplete
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\Algorithms.exe
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\CommonHelpers.dll
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\bin\Debug\CommonHelpers.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.AssemblyReference.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.CoreCompileInputs.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\SortingAlgorithms.csproj.CopyComplete
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\Algorithms\Algorithms\obj\Debug\Algorithms.pdb

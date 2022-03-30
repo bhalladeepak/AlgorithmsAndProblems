@@ -4,3 +4,9 @@ E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.c
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.csproj.CoreCompileInputs.cache
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.exe
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\bin\Debug\DeepCopy.exe
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\bin\Debug\DeepCopy.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.csproj.AssemblyReference.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.csproj.CoreCompileInputs.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.exe
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DeepCopy\obj\x86\Debug\DeepCopy.pdb

@@ -4,3 +4,9 @@ E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHel
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.csproj.CoreCompileInputs.cache
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.dll
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\bin\Debug\CommonHelpers.dll
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\bin\Debug\CommonHelpers.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.csproj.AssemblyReference.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.csproj.CoreCompileInputs.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.dll
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CommonHelpers\obj\Debug\CommonHelpers.pdb

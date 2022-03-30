@@ -8,3 +8,13 @@ E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\Elementa
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\ElementaryDataStructures.csproj.CopyComplete
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\DataStructures.exe
 E:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\DataStructures.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\bin\Debug\DataStructures.exe.config
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\bin\Debug\DataStructures.exe
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\bin\Debug\DataStructures.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\bin\Debug\CommonHelpers.dll
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\bin\Debug\CommonHelpers.pdb
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\ElementaryDataStructures.csproj.AssemblyReference.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\ElementaryDataStructures.csproj.CoreCompileInputs.cache
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\ElementaryDataStructures.csproj.CopyComplete
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\DataStructures.exe
+D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\DataStructures\obj\Debug\DataStructures.pdb
