@@ -1,7 +1,0 @@
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\bin\Debug\CSharpTutorials.exe.config
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\bin\Debug\CSharpTutorials.exe
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\bin\Debug\CSharpTutorials.pdb
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\obj\Debug\CSharpTutorials.csproj.AssemblyReference.cache
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\obj\Debug\CSharpTutorials.csproj.CoreCompileInputs.cache
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\obj\Debug\CSharpTutorials.exe
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\CSharpTutorials\obj\Debug\CSharpTutorials.pdb

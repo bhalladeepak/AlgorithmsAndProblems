@@ -1,7 +1,0 @@
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\bin\Debug\SandBoxProject.exe.config
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\bin\Debug\SandBoxProject.exe
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\bin\Debug\SandBoxProject.pdb
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\obj\Debug\SandBoxProject.csproj.AssemblyReference.cache
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\obj\Debug\SandBoxProject.csproj.CoreCompileInputs.cache
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\obj\Debug\SandBoxProject.exe
-D:\GitHub-Deepakbhalla27\AlgorithmsAndProblems\SandBoxProject\obj\Debug\SandBoxProject.pdb
