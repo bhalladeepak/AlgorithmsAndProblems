@@ -1,0 +1,15 @@
+{
+  "ServerUri": "https://sonarcloud.io/",
+  "Organization": {
+    "Key": "deepakbhalla",
+    "Name": "Deepak Bhalla"
+  },
+  "ProjectKey": "bhalladeepak_AlgorithmsAndProblems",
+  "ProjectName": "AlgorithmsAndProblems",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AX_I6Cz0L-wRgnDeAfHk",
+      "ProfileTimestamp": "2022-03-31T10:15:41Z"
+    }
+  }
+}
